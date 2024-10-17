@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts link here down-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+
+    <!--SECOND FONT LINK()-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>My Portfolio</h1>
+            <a href="#heading"><h1 class="heading " id="heading">My Portfolio</h1></a>
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
@@ -21,30 +34,29 @@
     </header>
 
     <section id="about">
-        <div class="container">
+        <div class="about">
             <h2>About Me</h2>
-            <img src="C:\Users\HP\Desktop\My-Personal-Portfolio\WhatsApp Image 2024-10-17 at 18.04.16_f39a15f0.jpg" alt="Profile Picture" class="profile-pic"> <!-- Add your profile picture here -->
+            <!--Always remember whenever adding images you make assets folder and add your 
+            images there and to fetch those use these "./" and it will show the corresponding folder-->
+            <img src="./assets/profit-svgrepo-com.svg" alt="Profile Picture" class="profile-pic"> <!-- Add your profile picture here -->
 
-            <p>Hello! I'm Saraswathi! I am passionate about technology and software development. I enjoy learning new programming languages and working on projects that challenge my skills. Currently focused on fullstack development and Artificial Intelligence.</p>
+            <p class="intro">Hello! I'm Saraswathi! I am passionate about technology and software development. I enjoy learning new programming languages and working on projects that challenge my skills. Currently focused on fullstack development and Artificial Intelligence.</p>
         </div>
     </section>
 
     <section id="projects">
-        <div class="container">
+        <div class="project">
             <h2>My Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Project 1</h3>
-                    <h1>My Portfolio</h1>
+                    <h2>My Portfolio</h2>
                     <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills. Deployed the site on Netlify for easy access and updates.</p>
                 </div>
                 <div class="project-card">
-                    <h3>Project 2</h3>
                     <h2>Library Management System</h2>
                     <p>Created a Library Management System developed using Java and MySQL for database management. The system streamlined the process of managing library resources, reducing manual errors by 60%.</p>
                 </div>
                 <div class="project-card">
-                    <h3>Project 3</h3>
                     <h2>password Generator</h2>
                     <p>Using a password generator reduces the risk of creating predictable or weak passwords, improving overall security, especially for sensitive accounts.</p>
                 </div>
@@ -53,18 +65,18 @@
     </section>
 
     <section id="contact">
-        <div class="container">
+        <div class="about">
             <h2>Contact Me</h2>
             <p>Feel free to reach out through any of the following platforms or send me a message directly using the form below:</p>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/pamidi-saraswathi-4573a12a7" target="_blank">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/pamidi-saraswathi-4573a12a7" target="_blank"><img src="assets/linked-in-logo-of-two-letters-svgrepo-com.svg">LinkedIn</a>
                 </li>
                 <li>
-                    <a href="https://github.com/PamidiSaraswathi/Suhasini.git" target="_blank">GitHub</a>
+                    <a href="https://github.com/PamidiSaraswathi/Suhasini.git" target="_blank"><img src="assets/github-icon-1-logo-svgrepo-com.svg">GitHub</a>
                 </li>
                 <li>
-                    <a href="mailto:saruuupami@gmail.com">Email Me</a> <!-- Use mailto for direct email -->
+                    <a href="mailto:saruuupami@gmail.com"><img src="assets/email-1572-svgrepo-com.svg">Email Me</a> <!-- Use mailto for direct email -->
                 </li>
             </ul>
 
